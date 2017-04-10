@@ -1,0 +1,249 @@
+
+.maincontent {
+	width: 1260px;
+	display:table;
+	margin: 4px;
+}
+
+.leftside{
+	background-color: lightgrey;
+	width: 900px;
+	display:table-cell;
+	vertical-align: top;
+}
+
+.rightside{
+	background-color: lightgrey;
+	width: 300px;
+	display:table-cell;
+	vertical-align: top;
+}
+
+.verticalspacer{
+	background-color: white;
+	width: 8px;
+	display:table-cell;
+}
+
+.horizontalspacer{
+	background-color: red;
+	height: 10px;
+	border: 1px solid black;
+	width: 250px;
+	margin: 10px auto 10px auto; 
+}
+
+.centertext {
+	text-align: center;
+}
+
+.rightsidetitle {
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.socmed {
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.cssusedol {
+	background-color: white;
+	width: 250px;
+	margin: 20px auto 0px auto; 
+	border: 2px solid black;
+}
+
+footer {
+	text-align: center;
+	background-color: grey;
+	line-height: 40px;
+	color: white;
+}
+
+/*NAV BAR*/
+
+nav {
+	padding: 24px 7px;
+	width: 1200px;
+	margin: 2px;
+	border:solid 2px; color:#FFFFFF; 
+	background: grey;
+	font-size: 26px;
+	font-family: "Calibri";
+}
+
+nav a {
+	text-decoration: none; 
+	background-color: yellow; 
+	color: black;
+	padding: 12px;
+	border:1px dashed black; 
+	}
+
+.selected {
+	text-decoration: none; 
+	background-color: aqua; 
+	color: black;
+	padding: 8px 12px;
+	border:1px dashed black;
+}
+/*SOCIAL MEDIA*/
+
+.socialmedia {
+	position: relative;
+	background: url('../images/social-media.png') no-repeat; 
+	width: 250px; 
+	height: 140px;
+	padding: 4px 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.facebook {width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 4px;}
+.twitter {width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 32px;}
+.youtube {width: 23px; height: 23px; border: 0; position: absolute; top: 3px; left: 222px;}
+.apple {width: 23px; height: 23px; border: 0; position: absolute; top: 85px; left: 4px;}
+
+/*HOME PAGE*/
+
+.homediv {
+	margin: 10px auto 10px auto;
+	background-color: white;
+	width: 94%;
+	padding: 20px;
+	position: relative;
+}
+
+.div div {
+	width: 94%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+
+.div div a{
+	text-decoration: none;
+}
+
+.div p {
+	font-weight: bold;
+	margin: 5px 10px;
+}
+
+/*GALLERY PAGE*/
+
+.picture {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+.insidediv {
+	width: 200px;
+	margin: 0px 25px;
+}
+
+.wondersleft {
+	background-color: white;
+	width: 700px;
+	vertical-align: top;
+	display:table-cell;
+}
+
+.wondersright {
+	background-color: white;
+	width: 200px;
+	vertical-align: top;
+	display:table-cell;
+	text-align: center;
+}
+/*VIDEO PAGE*/
+
+.video {
+	width: 768px;
+	height: 432px;
+	margin: auto;
+	display: table-cell;
+}
+
+.controlspanel {
+	padding: 30px 0px;
+	width: 250px;
+	margin: 10px auto 10px auto;
+	background-color: white;
+}
+
+.controlspanel button{
+	height: 40px;
+	width: 200px;
+	margin: 2px 23px;
+	border: 2px solid black;
+}
+/*AUDIO PAGE*/
+
+.audio {
+	margin: 0px auto;
+	display: table-cell;
+}
+
+.center {
+	margin: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*TABLE PAGE*/
+
+.tablediv {
+	padding: 15px 60px;
+	border: solid 6px;
+	border-color: #005588;
+	border-style: groove;
+	background-color: white;
+	margin: 30px auto 30px auto;
+	width: 60%;
+}
+
+.table2 td {
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	border: solid 1px;
+	padding: 2px;
+	padding-top: 4px;
+}
+
+.table2 {
+	border-collapse: separate;
+	border-spacing: 35px;
+	border: solid 1px;
+	column-gap: 150px;
+	margin: 2px auto 2px auto;
+}
+
+.c1 {background-color: #3FBF7F;}
+.c2 {background-color: #20CC98;}
+.c3 {background-color: #26D8BA;}
+.c4 {background-color: #19E5E5;}
+.c5 {background-color: #0CCCF2;}
+.c6 {background-color: #01A9FD;}
+
+.st1{font-family: Arial;font-size: 15px;}
+
+.heading {
+	margin: 30px;
+	color: coral;
+	text-shadow: 2px 2px brown;
+	font-style: italic;
+}
